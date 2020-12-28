@@ -49,9 +49,9 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: 'ApaJa Bot', // TOBAT SU ASU
+    A187: 'SENSI BOT🤖', // TOBAT SU ASU
     instagram: 'Error', // INFO JANGAN DI UBAH
-    nomer: 'wa.me/6281328063545', // INFO SU JNGAN DI UBAH
+    nomer: 'wa.me/6285964224017', // INFO SU JNGAN DI UBAH
     youtube: 'Ga Ada', // KINTIL
     whatsapp: 'https://chat.whatsapp.com/CEBTCWw2APwD6EdxOox9wG', // BABI
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
