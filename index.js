@@ -217,7 +217,7 @@ client.on('group-participants-update', async (anu) => {
 						fs.writeFileSync('./src/welkom.json', JSON.stringify(welkom))
 						reply('❬ Succes ❭ mengaktifkan fitur welcome di grup ini!')
 					} else if (Number(args[0]) === off) {
-						welkom.splice(from, 1)
+						welkom.splice(from, on)
 						fs.writeFileSync('./src/welkom.json', JSON.stringify(welkom))
 						reply('❬ Succes ❭ menonaktifkan fitur welcome di grup ini!')
 					} else {
