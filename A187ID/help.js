@@ -47,8 +47,7 @@ const help = (prefix) => {
    ${prefix}simih  [1/0]
  
 *_[Owner]_*
-                      
-   ${prefix}bc  
+                        
    ${prefix}clearall 
    ${prefix}setprefix 
    ${prefix}leave 
